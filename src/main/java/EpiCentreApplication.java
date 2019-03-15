@@ -1,3 +1,4 @@
+import Services.HospitalLogin;
 import io.dropwizard.Application;
 import io.dropwizard.Configuration;
 import io.dropwizard.setup.Environment;
@@ -10,7 +11,8 @@ public class EpiCentreApplication extends Application<Configuration> {
 
     @Override
     public void run(Configuration epiCentre, Environment environment){
-        //TODO
+        final HospitalLogin hospitalLogin = new HospitalLogin();
+        environment.jersey().register(hospitalLogin);
     }
 
 }
