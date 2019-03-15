@@ -2,20 +2,26 @@ package Services;
 
 import org.glassfish.jersey.media.multipart.FormDataParam;
 
-import javax.ws.rs.Consumes;
-import javax.ws.rs.POST;
-import javax.ws.rs.Path;
+import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.HashMap;
 import java.util.Map;
 
+@Path("/hospital")
+@Produces(MediaType.TEXT_HTML)
 public class HospitalLogin {
 
     public HospitalLogin() {
     }
 
-    @POST
+    @GET
+    @Path("/abc")
+    public Response printHello(){
+        return Response.status(Response.Status.OK).entity("hello").build();
+    }
+
+    /*@POST
     @Path("/hospitalLogin")
     @Consumes(MediaType.MULTIPART_FORM_DATA)
     public Response checkCredentials(@FormDataParam("userID") String userID,
@@ -37,5 +43,5 @@ public class HospitalLogin {
     //Result : 0 -- Wrong UserName
     //Result : 1 -- Correct UserName but Wrong Password
     //Result : 2 -- Correct UserName and Wrong Password
-
+*/
 }

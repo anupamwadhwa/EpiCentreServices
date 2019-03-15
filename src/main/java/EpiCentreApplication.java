@@ -7,6 +7,7 @@ public class EpiCentreApplication extends Application<Configuration> {
 
     public static void main(String[] args) throws Exception {
         new EpiCentreApplication().run(args);
+
     }
 
     @Override
