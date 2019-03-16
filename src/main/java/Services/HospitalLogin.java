@@ -21,16 +21,16 @@ public class HospitalLogin {
         return Response.status(Response.Status.OK).entity("hello").build();
     }
 
-    /*@POST
+    @POST
     @Path("/hospitalLogin")
     @Consumes(MediaType.MULTIPART_FORM_DATA)
     public Response checkCredentials(@FormDataParam("userID") String userID,
                                      @FormDataParam("password") String password) {
         Map userIDPassword = new HashMap<String, String>();
-        userIDPassword.put("abc","def");
+        userIDPassword.put("abc", "def");
         if (userIDPassword.containsKey(userID)) {
             String correctPassword = (String) userIDPassword.get(userID);
-            if (correctPassword == password) {
+            if (correctPassword.equals(password)) {
                 return Response.status(Response.Status.OK).entity("2").build();
             } else {
                 return Response.status(Response.Status.OK).entity("1").build();
@@ -43,5 +43,4 @@ public class HospitalLogin {
     //Result : 0 -- Wrong UserName
     //Result : 1 -- Correct UserName but Wrong Password
     //Result : 2 -- Correct UserName and Wrong Password
-*/
 }
