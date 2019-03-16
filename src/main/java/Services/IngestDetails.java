@@ -1,7 +1,6 @@
 package Services;
 
 import com.opencsv.CSVWriter;
-import org.glassfish.jersey.media.multipart.FormDataParam;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -18,7 +17,7 @@ public class IngestDetails {
 
     @GET
     @Path("/hello")
-    public Response printHello(){
+    public Response printHello() {
         return Response.status(Response.Status.OK).entity("hello").build();
     }
 
