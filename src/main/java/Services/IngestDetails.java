@@ -28,7 +28,7 @@ public class IngestDetails {
     public Response addDetails(@FormDataParam("disease") String disease,
                                @FormDataParam("address") String address,
                                @FormDataParam("pincode") String pinCode) throws IOException {
-        CSVWriter csvWriter = new CSVWriter(new FileWriter("C:\\Users\\Anupam Wadhwa\\Desktop\\EpiCentreServices\\data.csv", true));
+        CSVWriter csvWriter = new CSVWriter(new FileWriter("data.csv", true));
         String[] record = new String[3];
         record[0] = disease;
         record[1] = address;

@@ -17,7 +17,7 @@ public class LoginDetailsFactory {
 
     public static Map provideDetails() throws IOException {
         if (userIDPassword == null) {
-            File file = new File("C:\\Users\\Anupam Wadhwa\\IdeaProjects\\EpiCentreServices\\src\\main\\resources\\hospital.csv");
+            File file = new File("hospital.csv");
             BufferedReader bufferedReader = Files.newReader(file, Charset.defaultCharset());
             CSVReader csvReader = new CSVReader(bufferedReader);
             String[] nextRecord;
