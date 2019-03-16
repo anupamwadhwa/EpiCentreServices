@@ -1,13 +1,15 @@
 package Services;
 
 import Factories.LoginDetailsFactory;
-import org.glassfish.jersey.media.multipart.FormDataParam;
+import com.google.common.io.Files;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
-import java.util.HashMap;
+import java.nio.charset.Charset;
 import java.util.Map;
 
 @Path("/hospital")
@@ -18,16 +20,24 @@ public class HospitalLogin {
     }
 
     @GET
-    @Path("/hello")
-    public Response printHello(){
-        return Response.status(Response.Status.OK).entity("hello").build();
+    @Path("/login")
+    public Response printHello() throws IOException {
+        File file = new File("HTMLFiles/login.html");
+        BufferedReader bufferedReader = Files.newReader(file, Charset.defaultCharset());
+        StringBuilder stringBuilder = new StringBuilder();
+        String str;
+        while ((str = bufferedReader.readLine()) != null) {
+            stringBuilder.append(str);
+        }
+        str = stringBuilder.toString();
+        return Response.status(Response.Status.OK).entity(str).build();
     }
 
     @POST
-    @Path("/login")
-    @Consumes(MediaType.MULTIPART_FORM_DATA)
-    public Response checkCredentials(@FormDataParam("userID") String userID,
-                                     @FormDataParam("password") String password) throws IOException {
+    @Path("/checkLogin")
+    @Consumes(MediaType.APPLICATION_FORM_URLENCODED)
+    public Response checkCredentials(@FormParam("userID") String userID,
+                                     @FormParam("password") String password) throws IOException {
         Map userIDPassword = LoginDetailsFactory.provideDetails();
         if (userIDPassword.containsKey(userID)) {
             String correctPassword = (String) userIDPassword.get(userID);
