@@ -1,10 +1,12 @@
 package Services;
 
+import Factories.LoginDetailsFactory;
 import org.glassfish.jersey.media.multipart.FormDataParam;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -16,18 +18,17 @@ public class HospitalLogin {
     }
 
     @GET
-    @Path("/abc")
+    @Path("/hello")
     public Response printHello(){
         return Response.status(Response.Status.OK).entity("hello").build();
     }
 
     @POST
-    @Path("/hospitalLogin")
+    @Path("/login")
     @Consumes(MediaType.MULTIPART_FORM_DATA)
     public Response checkCredentials(@FormDataParam("userID") String userID,
-                                     @FormDataParam("password") String password) {
-        Map userIDPassword = new HashMap<String, String>();
-        userIDPassword.put("abc", "def");
+                                     @FormDataParam("password") String password) throws IOException {
+        Map userIDPassword = LoginDetailsFactory.provideDetails();
         if (userIDPassword.containsKey(userID)) {
             String correctPassword = (String) userIDPassword.get(userID);
             if (correctPassword.equals(password)) {
