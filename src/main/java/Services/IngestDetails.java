@@ -24,10 +24,10 @@ public class IngestDetails {
 
     @POST
     @Path("/add")
-    @Consumes(MediaType.MULTIPART_FORM_DATA)
-    public Response addDetails(@FormDataParam("disease") String disease,
-                               @FormDataParam("address") String address,
-                               @FormDataParam("pincode") String pinCode) throws IOException {
+    @Consumes(MediaType.APPLICATION_FORM_URLENCODED)
+    public Response addDetails(@FormParam("disease") String disease,
+                               @FormParam("address") String address,
+                               @FormParam("pincode") String pinCode) throws IOException {
         CSVWriter csvWriter = new CSVWriter(new FileWriter("data.csv", true));
         String[] record = new String[3];
         record[0] = disease;

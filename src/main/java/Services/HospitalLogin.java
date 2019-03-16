@@ -22,7 +22,11 @@ public class HospitalLogin {
     @GET
     @Path("/login")
     public Response printHello() throws IOException {
-        File file = new File("HTMLFiles/login.html");
+        return generateHTMLResponse("HTMLFiles/login.html");
+    }
+
+    private Response generateHTMLResponse(String htmlFileURL) throws IOException {
+        File file = new File(htmlFileURL);
         BufferedReader bufferedReader = Files.newReader(file, Charset.defaultCharset());
         StringBuilder stringBuilder = new StringBuilder();
         String str;
@@ -42,12 +46,12 @@ public class HospitalLogin {
         if (userIDPassword.containsKey(userID)) {
             String correctPassword = (String) userIDPassword.get(userID);
             if (correctPassword.equals(password)) {
-                return Response.status(Response.Status.OK).entity("2").build();
+                return generateHTMLResponse("HTMLFiles/addDetails.html");
             } else {
-                return Response.status(Response.Status.OK).entity("1").build();
+                return generateHTMLResponse("HTMLFiles/login.html");
             }
         } else {
-            return Response.status(Response.Status.OK).entity("0").build();
+            return generateHTMLResponse("HTMLFiles/addDetails.html");
         }
 
     }
