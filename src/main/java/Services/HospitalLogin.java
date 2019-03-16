@@ -51,7 +51,7 @@ public class HospitalLogin {
                 return generateHTMLResponse("HTMLFiles/login.html");
             }
         } else {
-            return generateHTMLResponse("HTMLFiles/addDetails.html");
+            return generateHTMLResponse("HTMLFiles/login.html");
         }
 
     }

@@ -110,6 +110,23 @@
         color: #EF3B3A;
     }
 
+    .styled select {
+        background: transparent;
+        width: 150px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        height: 34px;
+    }
+
+    .styled {
+        margin: 50px;
+        width: 150px;
+        height: 34px;
+        border: 2px solid #111;
+        border-radius: 3px;
+        overflow: hidden;
+    }
+
     body {
         background: #76b852; /* fallback for old browsers */
         background: -webkit-linear-gradient(right, #76b852, #8DC26F);
@@ -124,17 +141,19 @@
 <div class="login-page">
     <div class="form">
         <form class="login-form" action="/addDetails/add" method="POST">
-            <select name="disease">
-                <option value="Mumps">Mumps</option>
-                <option value="Ebola">Ebola</option>
-                <option value="Flu">Flu</option>
-                <option value="Dengue fever">Dengue Fever</option>
-                <option value="Measles">Measles</option>
-                <option value="Typhoid fever">Typhoid Fever</option>
-                <option value="Tuberculosis">Tuberculosis</option>
-                <option value="Chickenpox">Chickenpox</option>
-                <option value="whooping cough">Whooping Cough</option>
-            </select>
+            <div class="styled">
+                <select name="disease">
+                    <option value="Mumps">Mumps</option>
+                    <option value="Ebola">Ebola</option>
+                    <option value="Flu">Flu</option>
+                    <option value="Dengue fever">Dengue Fever</option>
+                    <option value="Measles">Measles</option>
+                    <option value="Typhoid fever">Typhoid Fever</option>
+                    <option value="Tuberculosis">Tuberculosis</option>
+                    <option value="Chickenpox">Chickenpox</option>
+                    <option value="whooping cough">Whooping Cough</option>
+                </select>
+            </div>
             <input type="text" placeholder="Address" name="address"/>
             <input type="number" placeholder="PINCODE" name="pincode"/>
             <input type="submit" value="Submit" style="background-color: #4CAF50; color: #FFFFFF;"/>
