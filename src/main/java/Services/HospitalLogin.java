@@ -1,11 +1,15 @@
 package Services;
 
-import org.glassfish.jersey.media.multipart.FormDataParam;
+import Factories.LoginDetailsFactory;
+import com.google.common.io.Files;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import java.util.HashMap;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.IOException;
+import java.nio.charset.Charset;
 import java.util.Map;
 
 @Path("/hospital")
@@ -16,27 +20,38 @@ public class HospitalLogin {
     }
 
     @GET
-    @Path("/abc")
-    public Response printHello(){
-        return Response.status(Response.Status.OK).entity("hello").build();
+    @Path("/login")
+    public Response printHello() throws IOException {
+        return generateHTMLResponse("HTMLFiles/login.html");
+    }
+
+    private Response generateHTMLResponse(String htmlFileURL) throws IOException {
+        File file = new File(htmlFileURL);
+        BufferedReader bufferedReader = Files.newReader(file, Charset.defaultCharset());
+        StringBuilder stringBuilder = new StringBuilder();
+        String str;
+        while ((str = bufferedReader.readLine()) != null) {
+            stringBuilder.append(str);
+        }
+        str = stringBuilder.toString();
+        return Response.status(Response.Status.OK).entity(str).build();
     }
 
     @POST
-    @Path("/hospitalLogin")
-    @Consumes(MediaType.MULTIPART_FORM_DATA)
-    public Response checkCredentials(@FormDataParam("userID") String userID,
-                                     @FormDataParam("password") String password) {
-        Map userIDPassword = new HashMap<String, String>();
-        userIDPassword.put("abc", "def");
+    @Path("/checkLogin")
+    @Consumes(MediaType.APPLICATION_FORM_URLENCODED)
+    public Response checkCredentials(@FormParam("userID") String userID,
+                                     @FormParam("password") String password) throws IOException {
+        Map userIDPassword = LoginDetailsFactory.provideDetails();
         if (userIDPassword.containsKey(userID)) {
             String correctPassword = (String) userIDPassword.get(userID);
             if (correctPassword.equals(password)) {
-                return Response.status(Response.Status.OK).entity("2").build();
+                return generateHTMLResponse("HTMLFiles/addDetails.html");
             } else {
-                return Response.status(Response.Status.OK).entity("1").build();
+                return generateHTMLResponse("HTMLFiles/login.html");
             }
         } else {
-            return Response.status(Response.Status.OK).entity("0").build();
+            return generateHTMLResponse("HTMLFiles/login.html");
         }
 
     }

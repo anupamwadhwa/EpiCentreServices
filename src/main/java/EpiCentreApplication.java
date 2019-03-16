@@ -1,6 +1,7 @@
 import MapsAPIs.Geocoder;
 import MapsAPIs.data.Coordinates;
 import Services.HospitalLogin;
+import Services.IngestDetails;
 import io.dropwizard.Application;
 import io.dropwizard.Configuration;
 import io.dropwizard.forms.MultiPartBundle;
@@ -20,6 +21,9 @@ public class EpiCentreApplication extends Application<Configuration> {
     public void run(Configuration epiCentre, Environment environment){
         final HospitalLogin hospitalLogin = new HospitalLogin();
         environment.jersey().register(hospitalLogin);
+
+        final IngestDetails ingestDetails = new IngestDetails();
+        environment.jersey().register(ingestDetails);
     }
 
 
