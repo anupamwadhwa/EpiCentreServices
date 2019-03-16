@@ -80,7 +80,7 @@ public class ProvideRequiredPoints {
 
 
     private static ArrayList<DataItem> getDataItems(double minLat, double maxLat, double minLag, double maxLag) throws IOException {
-        File file = new File("cord.csv");
+        File file = new File("finaldata.csv");
         BufferedReader bufferedReader = Files.newReader(file, Charset.defaultCharset());
         CSVReader csvReader = new CSVReader(bufferedReader);
         String[] nextRecord;

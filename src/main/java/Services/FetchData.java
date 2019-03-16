@@ -49,7 +49,7 @@ public class FetchData {
     @GET
     @Path("/alldata")
     public Response fetchData() throws IOException {
-        File file = new File("cord.csv");
+        File file = new File("finaldata.csv");
         BufferedReader bufferedReader = Files.newReader(file, Charset.defaultCharset());
         CSVReader csvReader = new CSVReader(bufferedReader);
         String[] nextRecord;
