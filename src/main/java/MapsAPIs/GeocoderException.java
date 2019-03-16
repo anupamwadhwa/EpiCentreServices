@@ -15,6 +15,7 @@ public class GeocoderException extends IOException {
     public static final int G_GEO_TOO_MANY_QUERIES = 620;
     private static final long serialVersionUID = 1L;
     private final int _status;
+
     public GeocoderException(int status) {
         super("Status " + status);
 
