@@ -1,101 +1,100 @@
-Mumps,"Jai Mahal Palace, Jacob Rd, Civil Lines, Jaipur, Rajasthan ",302006
-Flu,"4-D Villa, Khasa Kothi Circle, Station Rd, Kanti Nagar, Bani Park, Jaipur, Rajasthan ",302001
-Chickenpox,"Vishnu Hill Town, Kundan Nagar, Ajmer, Rajasthan ",305007
-Flu,"Near Mamaiya Chowk Dhan Mandi, Lakhan Kothri, Ajmer, Rajasthan ",305001
-Dengue fever,"Crpf, GC1, Vishnu Hill Town, Kundan Nagar, Ajmer, Rajasthan ",305007
-Chickenpox,"Land Mark City, Near Shri Hari Hospital, Kunhadi, Kota, Vishkarma Nagar, Kunadi, Electricity Board Area, Kota, Rajasthan ",324008
-Ebola,"Ground Floor, Orbit Mall, Ajmer Road, Civil Lines Near Metro Station, Madrampur, Civil Lines, Jaipur, Rajasthan ",302007
-Mumps,"Indra Colony, Near Choti Masjid, Vigyan Nagar, Indira Colony, Indira Nagar, Vigyan Nagar, Kota, Rajasthan ",324005
-Flu,"Sri Nagar Road, Near, Raja Cycle Circle, Vinay Nagar, Pal Bhichala, Ajmer, Rajasthan ",305001
-Dengue fever,"Cine world Road Near Mittal hospital, Haribhau Upadhyay Nagar, Ajmer, Rajasthan ",305004
-Typhoid fever,"29, Taragarh Rd, New Ganesh Nagar, Taragarh Rd, New Ganesh Nagar, Lajpat Nagar, Ramganj, Ajmer, Rajasthan ",305003
-Common cold,"khayam road, Near Khyber Hospital, kashmir, Jammu and Kashmir ",190001
-Whooping cough,"kaksarai road, kaksarai road , srinagar, Shireen Bagh, Nawabazar, Srinagar, Jammu and Kashmir ",190010
-Common cold,"Derish Kadal, Nowhatta Chowk, Srinagar, Jammu and Kashmir ",190010
-Flu,"Navrangpura, Ahmedabad, Gujarat ",380009
-Whooping cough,"Prism Complex, 202, MVCS 3rd floor, Shree Suryakant Aacharya Marg, Balotra, Junagadh, Gujarat ",362001
-Whooping cough,"Near lpg gas, Oghad Nagar, Junagadh, Gujarat ",362002
-Whooping cough,"Shop No. 3, Opp. Gayatri School, Sudarshan Apartment, Zanzarda Rd, Vishnu Colony, Junagadh, Gujarat ",362001
-Common cold,"Joshipura, Junagadh, Gujarat ",362002
-Flu,"Guru Gobindsinhji Marg, Opp. M, G.V, C.L, Chhani, Vadodara, Gujarat ",391740
-Chickenpox,"Abhishek Society, adhisheck, Phulwadi, Chhani, Vadodara, Gujarat ",391740
-Mumps,"Sadafal Plaza, Pakri Ka Pool, Sector I, Ashiyana, Lucknow, Uttar Pradesh ",226012
-Chickenpox,"Khajana Market, Shop No.83,, Sector K, Ashiyana, Lucknow, Uttar Pradesh ",226010
-Ebola,"Plot No. SS-1914, Sector -H, Kanpur Road, LDA Colony, Ashiyana, Sector H, LDA Colony, Lucknow, Uttar Pradesh ",226012
-Ebola,"Vipul Khand 5, Vipul Khand, Gomti Nagar, Lucknow, Uttar Pradesh ",226010
-Mumps,"Faizabad road opp all india radio, chinat square Kamta, Khand -2, Matiyari, Gomti Nagar, Lucknow, Uttar Pradesh ",226028
-Chickenpox,"Sadabahar Colony, Prabandh Nagar, Mubarakpur, Lucknow, Uttar Pradesh ",226201
-Mumps,"tadikhana, Sitapur Rd, Sherwani Nagar, Bhitauli, Lucknow, Uttar Pradesh ",226021
-Typhoid fever,"B- Block, B- Block Rajaji Puram, Lok Raj, Rajajipuam, Nehru Nagar A, Devpur, Rajajipuram, Lucknow, Uttar Pradesh ",226017
-Ebola,"Agra - Lucknow Expy, Narona, Uttar Pradesh ",226009
+Mumps,"Jai Mahal Palace, Jacob Rd, Civil Lines, Jaipur, Rajasthan",302006
+Flu,"4-D Villa, Khasa Kothi Circle, Station Rd, Kanti Nagar, Bani Park, Jaipur, Rajasthan",302001
+Chickenpox,"Vishnu Hill Town, Kundan Nagar, Ajmer, Rajasthan",305007
+Flu,"Near Mamaiya Chowk Dhan Mandi, Lakhan Kothri, Ajmer, Rajasthan",305001
+Dengue fever,"Crpf, GC1, Vishnu Hill Town, Kundan Nagar, Ajmer, Rajasthan",305007
+Chickenpox,"Land Mark City, Near Shri Hari Hospital, Kunhadi, Kota, Vishkarma Nagar, Kunadi, Electricity Board Area, Kota, Rajasthan",324008
+Ebola,"Ground Floor, Orbit Mall, Ajmer Road, Civil Lines Near Metro Station, Madrampur, Civil Lines, Jaipur, Rajasthan",302007
+Mumps,"Indra Colony, Near Choti Masjid, Vigyan Nagar, Indira Colony, Indira Nagar, Vigyan Nagar, Kota, Rajasthan",324005
+Flu,"Sri Nagar Road, Near, Raja Cycle Circle, Vinay Nagar, Pal Bhichala, Ajmer, Rajasthan",305001
+Dengue fever,"Cine world Road Near Mittal hospital, Haribhau Upadhyay Nagar, Ajmer, Rajasthan",305004
+Typhoid fever,"29, Taragarh Rd, New Ganesh Nagar, Taragarh Rd, New Ganesh Nagar, Lajpat Nagar, Ramganj, Ajmer, Rajasthan",305003
+Common cold,"khayam road, Near Khyber Hospital, kashmir, Jammu and Kashmir",190001
+Whooping cough,"kaksarai road, kaksarai road , srinagar, Shireen Bagh, Nawabazar, Srinagar, Jammu and Kashmir",190010
+Common cold,"Derish Kadal, Nowhatta Chowk, Srinagar, Jammu and Kashmir",190010
+Flu,"Navrangpura, Ahmedabad, Gujarat",380009
+Whooping cough,"Prism Complex, 202, MVCS 3rd floor, Shree Suryakant Aacharya Marg, Balotra, Junagadh, Gujarat",362001
+Whooping cough,"Near lpg gas, Oghad Nagar, Junagadh, Gujarat",362002
+Whooping cough,"Shop No. 3, Opp. Gayatri School, Sudarshan Apartment, Zanzarda Rd, Vishnu Colony, Junagadh, Gujarat",362001
+Common cold,"Joshipura, Junagadh, Gujarat",362002
+Flu,"Guru Gobindsinhji Marg, Opp. M, G.V, C.L, Chhani, Vadodara, Gujarat",391740
+Chickenpox,"Abhishek Society, adhisheck, Phulwadi, Chhani, Vadodara, Gujarat",391740
+Mumps,"Sadafal Plaza, Pakri Ka Pool, Sector I, Ashiyana, Lucknow, Uttar Pradesh",226012
+Chickenpox,"Khajana Market, Shop No.83,, Sector K, Ashiyana, Lucknow, Uttar Pradesh",226010
+Ebola,"Plot No. SS-1914, Sector -H, Kanpur Road, LDA Colony, Ashiyana, Sector H, LDA Colony, Lucknow, Uttar Pradesh",226012
+Ebola,"Vipul Khand 5, Vipul Khand, Gomti Nagar, Lucknow, Uttar Pradesh",226010
+Mumps,"Faizabad road opp all india radio, chinat square Kamta, Khand -2, Matiyari, Gomti Nagar, Lucknow, Uttar Pradesh",226028
+Chickenpox,"Sadabahar Colony, Prabandh Nagar, Mubarakpur, Lucknow, Uttar Pradesh",226201
+Mumps,"tadikhana, Sitapur Rd, Sherwani Nagar, Bhitauli, Lucknow, Uttar Pradesh",226021
+Typhoid fever,"B- Block, B- Block Rajaji Puram, Lok Raj, Rajajipuam, Nehru Nagar A, Devpur, Rajajipuram, Lucknow, Uttar Pradesh",226017
+Ebola,"Agra - Lucknow Expy, Narona, Uttar Pradesh",226009
 Measles,"IIM Rd, Prabandh Nagar, Mubarakpur, Lucknow, Uttar Pradesh",226013
-Mumps,"T r phukan road, Ttiloi Bari, Chowkidingee, Dibrugarh, Assam ",786001
-Mumps,"Chring Gaon, Assam ",786010
-Ebola,"Hiloidhari Chandoi Gaon, Assam ",786002
-Common cold,"Dibrugarh Flyover, Kamar Gaon, Assam ",786004
-Flu,"Mohanbari, Assam ",786012
-Common cold,"Barbari, Dibrugarh, Assam ",786002
-Common cold,"Kahilipara Main Rd, Odalbakra, Lal Ganesh, Guwahati, Assam ",781034
-Whooping cough,"GARCHUK, Guwahati, Assam ",781035
-Flu,"IHM Campus VIP Road Borbari, Upper, Hengrabari, Guwahati, Assam ",781036
-Mumps,"Nalbari Rd, Nalbari, Assam ",781335
-Tuberculosis,"2nd Floor, Adityam Building, GS Road Lachit Nagar, South Sarania, Ulubari, Guwahati, Assam ",781007
-Typhoid fever,"100, Jaydev Vihar Flyover, Near Pal Height, Jayadev Vihar, Bhubaneswar, Odisha ",751013
-Dengue fever,"Near BMC Kalyan Mandap, VSS Nagar, Bhubaneswar, Odisha ",751007
-Ebola,"2746/5849, Near Sainik School, Gajapati Nagar, Bhubaneswar, Odisha ",751005
-Ebola,"S-59, Mancheshwar Industrial Estate, Nayapalli, Sector A, Mancheswar Industrial Estate, Bhubaneswar, Odisha ",751001
-Mumps,"Bharat Petroleum Retail Outlet, District Center, Chandrasekharpur, Bhubaneswar, Odisha ",751016
-Typhoid fever,"Plot # 3337, Zone - D, Sector - A, Mancheswar, Industrial Estate, Block F, Sector A, Mancheswar Industrial Estate, Bhubaneswar, Odisha ",751010
-Ebola,"Utkala Nagar, Vani Vihar, Bhubaneswar, Odisha ",751004
-Flu,"St Mother Teresa Rd, Bhoinagar Basti, Bhoi Nagar, Bhubaneswar, Odisha ",751022
-Dengue fever,"Plot No. 21/5, Near Regional Science Centre, Acharya Vihar, Bhubaneswar, Odisha ",751013
-Typhoid fever,"Acharya Vihar, Bhubaneswar, Odisha ",751022
-Ebola,"Mangalpur, Odisha ",755018
-Mumps,"Weavers Colony Nelamangala,, Jyothi Nagar, Nelamangala, Karnataka ",562123
+Mumps,"T r phukan road, Ttiloi Bari, Chowkidingee, Dibrugarh, Assam",786001
+Mumps,"Chring Gaon, Assam",786010
+Ebola,"Hiloidhari Chandoi Gaon, Assam",786002
+Common cold,"Dibrugarh Flyover, Kamar Gaon, Assam",786004
+Flu,"Mohanbari, Assam",786012
+Common cold,"Barbari, Dibrugarh, Assam",786002
+Common cold,"Kahilipara Main Rd, Odalbakra, Lal Ganesh, Guwahati, Assam",781034
+Whooping cough,"GARCHUK, Guwahati, Assam",781035
+Flu,"IHM Campus VIP Road Borbari, Upper, Hengrabari, Guwahati, Assam",781036
+Mumps,"Nalbari Rd, Nalbari, Assam",781335
+Tuberculosis,"2nd Floor, Adityam Building, GS Road Lachit Nagar, South Sarania, Ulubari, Guwahati, Assam",781007
+Typhoid fever,"100, Jaydev Vihar Flyover, Near Pal Height, Jayadev Vihar, Bhubaneswar, Odisha",751013
+Dengue fever,"Near BMC Kalyan Mandap, VSS Nagar, Bhubaneswar, Odisha",751007
+Ebola,"2746/5849, Near Sainik School, Gajapati Nagar, Bhubaneswar, Odisha",751005
+Ebola,"S-59, Mancheshwar Industrial Estate, Nayapalli, Sector A, Mancheswar Industrial Estate, Bhubaneswar, Odisha",751001
+Mumps,"Bharat Petroleum Retail Outlet, District Center, Chandrasekharpur, Bhubaneswar, Odisha",751016
+Typhoid fever,"Plot # 3337, Zone - D, Sector - A, Mancheswar, Industrial Estate, Block F, Sector A, Mancheswar Industrial Estate, Bhubaneswar, Odisha",751010
+Ebola,"Utkala Nagar, Vani Vihar, Bhubaneswar, Odisha",751004
+Flu,"St Mother Teresa Rd, Bhoinagar Basti, Bhoi Nagar, Bhubaneswar, Odisha",751022
+Dengue fever,"Plot No. 21/5, Near Regional Science Centre, Acharya Vihar, Bhubaneswar, Odisha",751013
+Typhoid fever,"Acharya Vihar, Bhubaneswar, Odisha",751022
+Ebola,"Mangalpur, Odisha",755018
+Mumps,"Weavers Colony Nelamangala,, Jyothi Nagar, Nelamangala, Karnataka",562123
 Flu,"P B Road, KHB Kalsapur Layout, Gadag, Karnataka 580001",580001
-Tuberculosis,"MIG-1-130, Hudco Colony, Gadag-Betigeri, Karnataka ",582103
-Typhoid fever,"1, Opp Cotton Sale Society, Shigli compound New, Old Bus-Stand Rd, Sidha Maheshwar Nagar, Gadag, Karnataka ",582101
-Flu,"Gadag, Karnataka ",582103
-Flu,"State Highway 6 Manjunath Nagar Betageri, Manjunath Nagar, Gadag, Karnataka ",582102
-Common cold,"No 1-101/4, Krishna Krupa, Opposite Kannada Bhavan, Main S.V.P Circle,, Huilgol, Karnataka ",582102
-Flu,"Shalwadi, Karnataka ",582208
-Tuberculosis,"Nargund, Gadag, NH-218, Gulbarg Bijapur Hubli Highway, Gadag, Adyapaka Nagar, Gadag, Karnataka ",582207
-Typhoid fever,"Hubli - Vijayapur - Gulbarga Rd, Govanakoppa, Karnataka ",582206
-Whooping cough,"Near Bus Stand, Laxmeshwar, Karnataka ",582116
-Common cold,"post office complex opp village panchayat, Madhalli, Karnataka ",582117
-Flu,"Fakkirasab Pinjar #32 Engineer in Hescom Shirhatti ROad Gajanan colony, Bagewadi, Karnataka ",582118
+Tuberculosis,"MIG-1-130, Hudco Colony, Gadag-Betigeri, Karnataka",582103
+Typhoid fever,"1, Opp Cotton Sale Society, Shigli compound New, Old Bus-Stand Rd, Sidha Maheshwar Nagar, Gadag, Karnataka",582101
+Flu,"Gadag, Karnataka",582103
+Flu,"State Highway 6 Manjunath Nagar Betageri, Manjunath Nagar, Gadag, Karnataka",582102
+Common cold,"No 1-101/4, Krishna Krupa, Opposite Kannada Bhavan, Main S.V.P Circle,, Huilgol, Karnataka",582102
+Flu,"Shalwadi, Karnataka",582208
+Tuberculosis,"Nargund, Gadag, NH-218, Gulbarg Bijapur Hubli Highway, Gadag, Adyapaka Nagar, Gadag, Karnataka",582207
+Typhoid fever,"Hubli - Vijayapur - Gulbarga Rd, Govanakoppa, Karnataka",582206
+Whooping cough,"Near Bus Stand, Laxmeshwar, Karnataka",582116
+Common cold,"post office complex opp village panchayat, Madhalli, Karnataka",582117
+Flu,"Fakkirasab Pinjar #32 Engineer in Hescom Shirhatti ROad Gajanan colony, Bagewadi, Karnataka",582118
 Whooping cough,"Kerikop, Karnataka",581213
-Common cold,"cross, Bellary - Hubli Rd, Hosalli, Karnataka ",582205
-Chickenpox,"Block 12, House 33A, New Camp, Tibetan Colony, Khyber Pass, New Aruna Nagar, New Delhi, Delhi ",110054
+Common cold,"cross, Bellary - Hubli Rd, Hosalli, Karnataka",582205
+Chickenpox,"Block 12, House 33A, New Camp, Tibetan Colony, Khyber Pass, New Aruna Nagar, New Delhi, Delhi",110054
 Common cold,"Shop 12 Ajit Nagar Near Metro Station, Gali Number 7, Kirti Nagar, Block F, Seelampur, Shahdara, Delhi",110053
-Whooping cough,"Block KD,, Ashok Vihar Phase-1, Near Ambedkar Chowk, Block KD, Wazirpur Village, Ashok Vihar, New Delhi, Delhi ",110052
+Whooping cough,"Block KD,, Ashok Vihar Phase-1, Near Ambedkar Chowk, Block KD, Wazirpur Village, Ashok Vihar, New Delhi, Delhi",110052
 Flu,"C-1/9, Lal Quarters Rd, Azad Nagar West, Block A, Krishna Nagar, Delhi",110051
 Chickenpox,"Block C, Bharati Artist Colony, Preet Vihar, Delhi",110092
-Tuberculosis,"Block E 1, Nand Nagri, e-1, New Delhi, Delhi ",110093
+Tuberculosis,"Block E 1, Nand Nagri, e-1, New Delhi, Delhi",110093
 Chickenpox,"Gali No.2, Near Anar Masjid, Block B, Old Mustafabad, New Mustafabad, Delhi",110094
-Ebola,"A- 10, GT Road, Jhilmil Industrial Area, Jhilmil Colony Industrial Area, Jhilmil Colony, New Delhi, Delhi ",110095
-Chickenpox,"Shop No D-106, Block E, New Ashok Nagar, Delhi, Uttar Pradesh ",110096
-Ebola,"Radha Krishna Mandir Rd, Kapas Hera Extension, Kapashera, New Delhi, Delhi ",110037
-Flu,"Near, Panchayat Ghar Rd, Opp. Maa Ganga Vidyalaya, Harjokri, Rajokri Village, Rajokri, New Delhi, Delhi ",110038
+Ebola,"A- 10, GT Road, Jhilmil Industrial Area, Jhilmil Colony Industrial Area, Jhilmil Colony, New Delhi, Delhi",110095
+Chickenpox,"Shop No D-106, Block E, New Ashok Nagar, Delhi, Uttar Pradesh",110096
+Ebola,"Radha Krishna Mandir Rd, Kapas Hera Extension, Kapashera, New Delhi, Delhi",110037
+Flu,"Near, Panchayat Ghar Rd, Opp. Maa Ganga Vidyalaya, Harjokri, Rajokri Village, Rajokri, New Delhi, Delhi",110038
 Ebola,"108, Auchandi Bawana Rd, Bawana Village, Bawana, Delhi",110039
-Common cold,"Shop No 360 & 361, Main Alipur Road, Narela, Narela Mandi, Narela, New Delhi, Delhi ",110040
+Common cold,"Shop No 360 & 361, Main Alipur Road, Narela, Narela Mandi, Narela, New Delhi, Delhi",110040
 Flu,"42, Railway Rd, Libaspur Extension, Libaspur, Samay Pur, Delhi",110042
-Typhoid fever,"302, D1 Block Rd, Mahavir Enclave I, Mahavir Enclave Part 2, Mahavir Enclave, New Delhi, Delhi ",110045
-Ebola,"M 15 First Floor Part 1 Road, Greater Kailash, M Block, Greater Kailash I, Greater Kailash, New Delhi, Delhi ",110048
-Whooping cough,"S 13, Block S, Greater Kailash I, Greater Kailash, New Delhi, Delhi ",110048
-Measles,"NH65A, Paliyas, Rajasthan ",341503
-Mumps,"Merta - Mundwa Road, Rajasthan ",341511
-Tuberculosis,"RJ SH 21A, Rohindi, Rajasthan ",341512
-Typhoid fever,"Near Ram Enterprises, Market Yard Rd, Amreli Irrigation Division, Manekpara, Amreli, Gujarat ",365601
-Dengue fever,"Parek Chamber, Nagnath Road, Rajkamal Chowk, Gajerapara, Amreli, Gujarat ",365601
-Ebola,"Palitana-Gariyadhar Hwy, Bela, Gariyadhar, Gujarat ",364505
-Chickenpox,"Opp. New st bus stand, Savarkundla - Mahuva highway, Jira, Savar Kundla, Gujarat ",364515
-Common cold,"Mehta High School, Saverkundla Jesar Highway, Bhavnagar, Near to B. G, Jesar, Gujarat ",364510
-Measles,"17199, Mahuva Road Rajavad Vill Savarkunla Dist, Ahmedabad, Gujarat ",364515
-Typhoid fever,"Savarkundla-Damnagar Hwy, Juna Savar, Gujarat ",364521
-Whooping cough,"GJ SH 115, Sanaliya, Gujarat ",365535
-Mumps,"near bus stop, hanumant complex, shop no.1, Vijapadi, Gujarat ",364530
-Dengue fever,"Balel Pipariya, Gujarat ",365460
-Chickenpox,"Chital, Gujarat ",365620
-Ebola,"Near Railway Station,Opposite Police Chowky, Uganda Rd, Railway Colony, Panch Hatdi, Porbandar, Gujarat ",360575
-"Flu","cftgvhjnkm","456798"
+Typhoid fever,"302, D1 Block Rd, Mahavir Enclave I, Mahavir Enclave Part 2, Mahavir Enclave, New Delhi, Delhi",110045
+Ebola,"M 15 First Floor Part 1 Road, Greater Kailash, M Block, Greater Kailash I, Greater Kailash, New Delhi, Delhi",110048
+Whooping cough,"S 13, Block S, Greater Kailash I, Greater Kailash, New Delhi, Delhi",110048
+Measles,"NH65A, Paliyas, Rajasthan",341503
+Mumps,"Merta - Mundwa Road, Rajasthan",341511
+Tuberculosis,"RJ SH 21A, Rohindi, Rajasthan",341512
+Typhoid fever,"Near Ram Enterprises, Market Yard Rd, Amreli Irrigation Division, Manekpara, Amreli, Gujarat",365601
+Dengue fever,"Parek Chamber, Nagnath Road, Rajkamal Chowk, Gajerapara, Amreli, Gujarat",365601
+Ebola,"Palitana-Gariyadhar Hwy, Bela, Gariyadhar, Gujarat",364505
+Chickenpox,"Opp. New st bus stand, Savarkundla - Mahuva highway, Jira, Savar Kundla, Gujarat",364515
+Common cold,"Mehta High School, Saverkundla Jesar Highway, Bhavnagar, Near to B. G, Jesar, Gujarat",364510
+Measles,"17199, Mahuva Road Rajavad Vill Savarkunla Dist, Ahmedabad, Gujarat",364515
+Typhoid fever,"Savarkundla-Damnagar Hwy, Juna Savar, Gujarat",364521
+Whooping cough,"GJ SH 115, Sanaliya, Gujarat",365535
+Mumps,"near bus stop, hanumant complex, shop no.1, Vijapadi, Gujarat",364530
+Dengue fever,"Balel Pipariya, Gujarat",365460
+Chickenpox,"Chital, Gujarat",365620
+Ebola,"Near Railway Station,Opposite Police Chowky, Uganda Rd, Railway Colony, Panch Hatdi, Porbandar, Gujarat",360575
