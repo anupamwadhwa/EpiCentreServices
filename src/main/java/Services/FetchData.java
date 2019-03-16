@@ -27,6 +27,16 @@ public class FetchData {
 
 
     @GET
+    @Path("/areadata")
+    public Response fetchAreaData(@QueryParam("minLat") String minLat,
+                                  @QueryParam("maxLat") String maxLat,
+                                  @QueryParam("minLag") String minLag,
+                                  @QueryParam("maxLag") String maxLag) throws IOException {
+        List list = ProvideRequiredPoints.fetchAreaDataInWindow(Double.valueOf(minLat), Double.valueOf(maxLat), Double.valueOf(minLag), Double.valueOf(maxLag));
+        return Response.status(Response.Status.OK).entity(list).build();
+    }
+
+    @GET
     @Path("/data")
     public Response fetchData(@QueryParam("minLat") String minLat,
                               @QueryParam("maxLat") String maxLat,
